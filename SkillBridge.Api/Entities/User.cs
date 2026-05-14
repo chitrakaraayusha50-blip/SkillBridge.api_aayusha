@@ -1,8 +1,9 @@
 using System.ComponentModel.DataAnnotations;
-namespace SkillBridge.Api.Entities{
-using System.Dynamic;
 
-public class User
+
+namespace SkillBridge.Api.Entities
+    {
+        public class User
 {
     [Required,Key]
 public int Id {get; set;}
@@ -17,4 +18,7 @@ public string Type{get; set;}
 [Required]
 public DateTime CreatedAt{get;set;}
 public bool IsActive {get; set;}
-}}
+}
+    
+    
+    }
